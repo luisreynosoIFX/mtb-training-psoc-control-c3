@@ -8,6 +8,20 @@ This E2 training introduces the PSOC™ Control C3 M5/P5 platform through 12 ses
 
 The presentations and selected lab manuals are available in the [main PSOC™ Control C3 training repository](https://github.com/Infineon/mtb-training-psoc-control-c3m5-c3p5). The course assumes basic ModusToolbox™ knowledge and uses the KIT_PSC3M5_EVK.
 
+## Access the training material
+
+Use the main training repository link above to access the sessions and manuals directly on Infineon GitHub. It is also included in this hub as a Git submodule under `courses/`. To clone the complete collection, use:
+
+```sh
+git clone --recurse-submodules https://github.com/luisreynosoIFX/mtb-training-psoc-control-c3.git
+```
+
+If you already cloned the hub without submodules, initialize them with:
+
+```sh
+git submodule update --init --recursive
+```
+
 ## Sessions
 
 1. Platform introduction
@@ -25,4 +39,4 @@ The presentations and selected lab manuals are available in the [main PSOC™ Co
 
 ## Training index
 
-Browse the [ModusToolbox™ training page](https://github.com/Infineon/training-modustoolbox) for PSOC™ and other device training.
+Browse the [ModusToolbox™ training page](https://github.com/luisreynosoIFX/training-modustoolbox) for PSOC™ and other device training.
