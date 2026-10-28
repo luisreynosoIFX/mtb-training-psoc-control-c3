@@ -10,17 +10,20 @@ The presentations and selected lab manuals are available in the [main PSOC™ Co
 
 ## Access the training material
 
-Use the main training repository link above to access the sessions and manuals directly on Infineon GitHub. It is also included in this hub as a Git submodule under `courses/`. To clone the complete collection, use:
+There are two ways to get the training material:
 
-```sh
-git clone --recurse-submodules https://github.com/luisreynosoIFX/mtb-training-psoc-control-c3.git
-```
+- **Open a single training:** Use the [main PSOC™ Control C3 training repository](https://github.com/Infineon/mtb-training-psoc-control-c3m5-c3p5) link to open the sessions and manuals on Infineon GitHub. No cloning is needed.
+- **Get everything:** Clone this repository with submodules to download the course under `courses/`:
 
-If you already cloned the hub without submodules, initialize them with:
+  ```sh
+  git clone --recurse-submodules https://github.com/luisreynosoIFX/mtb-training-psoc-control-c3.git
+  ```
 
-```sh
-git submodule update --init --recursive
-```
+  If you already cloned it without submodules, initialize them with:
+
+  ```sh
+  git submodule update --init --recursive
+  ```
 
 ## Sessions
 
